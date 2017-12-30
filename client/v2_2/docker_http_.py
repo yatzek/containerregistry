@@ -430,4 +430,4 @@ def Scheme(endpoint):
   elif re.match(r'.*\.local(?:host)?(?::\d{1,5})?$', endpoint):
     return 'http'
   else:
-    return 'https'
+    return 'http'
